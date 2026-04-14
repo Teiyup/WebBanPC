@@ -1,64 +1,26 @@
-# WebBanPC - Setup Guide
+# Hướng Dẫn Cài Đặt và Tính Năng
 
-## Setup Guide
+## Hướng Dẫn Cài Đặt
 
-Follow these steps to set up the PC e-commerce platform locally:
-
-1. **Clone the Repository**:
+1. **Yêu cầu hệ thống**: Đảm bảo rằng bạn có các phần mềm và công cụ cần thiết như Node.js, npm trước khi tiến hành cài đặt.
+2. **Clone dự án**:
    ```bash
    git clone https://github.com/Teiyup/WebBanPC.git
    cd WebBanPC
    ```
+3. **Cài đặt Dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Chạy ứng dụng**:
+   ```bash
+   npm start
+   ```
 
-2. **Install Dependencies**:
-   - Frontend:
-     ```bash
-     cd client
-     npm install
-     ```
-   - Backend:
-     ```bash
-     cd server
-     npm install
-     ```
+## Tính Năng
 
-3. **Environment Variables**:
-   - Create a `.env` file in the `server` directory and define your MongoDB connection string and other necessary variables.
-
-4. **Start the Servers**:
-   - Start the backend server on port 5000:
-     ```bash
-     cd server
-     npm start
-     ```
-   - Start the frontend server on port 3000:
-     ```bash
-     cd client
-     npm start
-     ```
-
-## Features
-- User Authentication
-- Product Listings
-- Shopping Cart Functionality
-- Payment Integration
-- User Reviews and Ratings
-
-## Project Structure
-```
-WebBanPC/
-├── client/         # Frontend React application
-├── server/         # Backend Node.js and Express application
-├── .env            # Environment variables for server
-└── README.md       # Project README
-```
-
-## Usage Instructions
-1. Open your browser and navigate to `http://localhost:3000` to access the frontend.
-2. Explore the product listings, add items to your cart, and proceed with checkout.
-
-For any further inquiries, feel free to open an issue on this repository.
-
----
-
-*Last updated: 2026-04-14 15:42:57 UTC*
+- **Quản lý sản phẩm**: Cho phép thêm, xóa, và chỉnh sửa thông tin sản phẩm.
+- **Giỏ hàng**: Khách hàng có thể thêm sản phẩm vào giỏ hàng và tiến hành thanh toán.
+- **Thanh toán trực tuyến**: Hỗ trợ nhiều hình thức thanh toán.
+- **Giao diện người dùng thân thiện**: Thiết kế đơn giản, dễ dàng sử dụng.
+- **Chi tiết sản phẩm**: Cung cấp thông tin đầy đủ về sản phẩm như giá cả, mô tả, và đánh giá.
