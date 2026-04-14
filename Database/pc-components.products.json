@@ -1,0 +1,167 @@
+[{
+  "_id": {
+    "$oid": "69b4fbf64edef693deb4a884"
+  },
+  "name": "Samsung 990 Pro 2TB NVMe SSD",
+  "description": "Ổ cứng SSD NVMe 2TB tốc độ siêu nhanh",
+  "price": 4500000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "SSD",
+  "stock": 11,
+  "image": "1773635305546.jpg",
+  "images": [],
+  "specifications": {
+    "Capacity": "2TB",
+    "Interface": "NVMe 4.0",
+    "Read Speed": "7100 MB/s",
+    "Write Speed": "6000 MB/s"
+  },
+  "brand": "Samsung",
+  "rating": 4.8,
+  "numReviews": 320,
+  "isHot": true,
+  "isNew": false,
+  "createdAt": {
+    "$date": "2026-03-14T06:11:02.072Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:58:55.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7804261c2c31b24d5acaf"
+  },
+  "name": "RX 7900XTX Taichi 24GB OC",
+  "description": "1 con card mạnh mẽ",
+  "price": 44000000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "GPU",
+  "stock": 31,
+  "image": "1773635089776.png",
+  "images": [],
+  "specifications": {},
+  "brand": "AMD",
+  "rating": 0,
+  "numReviews": 0,
+  "isHot": false,
+  "isNew": true,
+  "createdAt": {
+    "$date": "2026-03-16T04:00:02.976Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:58:55.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7a47032471ff67a15885f"
+  },
+  "name": "Mainboard MSI PRO B760M-A WIFI DDR4",
+  "description": "Mainboard MSI PRO B760M-A WIFI DDR4 LGA 1700",
+  "price": 3400000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "Mainboard",
+  "stock": 32,
+  "image": "1773642864844.jpg",
+  "images": [],
+  "specifications": {},
+  "brand": "MSI",
+  "rating": 0,
+  "numReviews": 0,
+  "isHot": false,
+  "isNew": true,
+  "createdAt": {
+    "$date": "2026-03-16T06:34:24.848Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:34:24.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7a77632471ff67a15886e"
+  },
+  "name": "R5 5600X",
+  "description": "AMD CPU",
+  "price": 3200000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "CPU",
+  "stock": 52,
+  "image": "1773643638315.jpg",
+  "images": [],
+  "specifications": {},
+  "brand": "AMD",
+  "rating": 0,
+  "numReviews": 0,
+  "isHot": false,
+  "isNew": true,
+  "createdAt": {
+    "$date": "2026-03-16T06:47:18.317Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T07:03:36.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7a95f55308eb306cd61eb"
+  },
+  "name": "Nguồn Corsair 1000W",
+  "description": "Nguồn 1000W 80+ Gold",
+  "price": 1700000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "PSU",
+  "stock": 13,
+  "image": "1773644127828.png",
+  "images": [],
+  "specifications": {},
+  "brand": "Corsair",
+  "rating": 0,
+  "numReviews": 0,
+  "isHot": false,
+  "isNew": true,
+  "createdAt": {
+    "$date": "2026-03-16T06:55:27.834Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:55:27.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7af3155308eb306cd6397"
+  },
+  "name": "Tản Nhiệt Khí dạng tháp Leopard K400",
+  "description": "Kích thước: 120 x 68 x 153 mm\r\nKích thước quạt: 120 x120 x 25 mm\r\nTốc độ quạt: 800-1800 (±10% RPM)\r\nĐộ ồn tối đa: 37 dBA\r\nChân cắm: 4 Pin RGB",
+  "price": 300000,
+  "originalPrice": 0,
+  "discount": 0,
+  "category": "Cooling",
+  "stock": 72,
+  "image": "1773645617276.jpg",
+  "images": [],
+  "specifications": {},
+  "brand": "Leopard",
+  "rating": 0,
+  "numReviews": 0,
+  "isHot": false,
+  "isNew": true,
+  "createdAt": {
+    "$date": "2026-03-16T07:20:17.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T07:25:22.469Z"
+  },
+  "__v": 0
+}]

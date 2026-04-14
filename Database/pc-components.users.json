@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "69b52fa545544e919f1afec7"
+  },
+  "name": "Teiyup",
+  "email": "teiyup@gmail.com",
+  "password": "$2a$10$8N3TtkB1Y1iRo/1J.W6sAODOMKOrVdrYSaW.A1PXBQq9woThlaGLa",
+  "phone": "",
+  "address": "",
+  "city": "",
+  "postalCode": "",
+  "country": "Vietnam",
+  "avatar": "",
+  "role": "customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-03-14T09:51:33.978Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:42:09.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b530b08b6615bfb592e99b"
+  },
+  "name": "Toastier",
+  "email": "toastier@pcshop.com",
+  "password": "$2a$10$FeUWaDK.Zyj5/ZCQa7BY1.//yEY0dH7PePVVQ1ZY4zV3gGgy9LywC",
+  "phone": "+84 987 654 321",
+  "address": "Quản lý hệ thống",
+  "city": "TP. Hồ Chí Minh",
+  "postalCode": "",
+  "country": "Vietnam",
+  "avatar": "",
+  "role": "admin",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-03-14T09:56:00.163Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-14T09:56:00.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7afa055308eb306cd63a0"
+  },
+  "name": "Nguyễn Đình Hoàng",
+  "email": "dinhhoang@gmail.com",
+  "password": "$2a$10$i6WwkSe2YiMQ.DwSvNP.te1Otc0ajOaF9ysm6H0sYCbxIIE53BoVu",
+  "phone": "",
+  "address": "",
+  "city": "",
+  "postalCode": "",
+  "country": "Vietnam",
+  "avatar": "",
+  "role": "customer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-03-16T07:22:08.366Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T07:22:08.366Z"
+  },
+  "__v": 0
+}]

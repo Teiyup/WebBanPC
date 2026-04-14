@@ -1,0 +1,244 @@
+[{
+  "_id": {
+    "$oid": "69b77711d3750d7c7c67c8dc"
+  },
+  "user": {
+    "$oid": "69b530b08b6615bfb592e99b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "69b4fbf64edef693deb4a882"
+      },
+      "productName": "NVIDIA RTX 4090",
+      "productImage": "https://via.placeholder.com/300",
+      "price": 50000000,
+      "quantity": 1,
+      "_id": {
+        "$oid": "69b77711d3750d7c7c67c8dd"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69b4fbf64edef693deb4a881"
+      },
+      "productName": "Intel Core i9-13900KS",
+      "productImage": "https://via.placeholder.com/300",
+      "price": 15000000,
+      "quantity": 1,
+      "_id": {
+        "$oid": "69b77711d3750d7c7c67c8de"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "123/123",
+    "fullName": "1234567",
+    "phoneNumber": "09090909",
+    "country": "Vietnam"
+  },
+  "paymentMethod": "COD",
+  "itemsPrice": 65000000,
+  "shippingPrice": 0,
+  "taxPrice": 6500000,
+  "totalPrice": 71500000,
+  "discount": 0,
+  "isPaid": false,
+  "isDelivered": false,
+  "status": "Đang Giao",
+  "createdAt": {
+    "$date": "2026-03-16T03:20:49.207Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:53:55.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7a2e232471ff67a15878a"
+  },
+  "user": {
+    "$oid": "69b52fa545544e919f1afec7"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "69b4fbf64edef693deb4a884"
+      },
+      "productName": "Samsung 990 Pro 2TB NVMe SSD",
+      "productImage": "1773635305546.jpg",
+      "price": 4500000,
+      "quantity": 3,
+      "_id": {
+        "$oid": "69b7a2e232471ff67a15878b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "12345",
+    "fullName": "Tei",
+    "phoneNumber": "0909090909",
+    "country": "Vietnam"
+  },
+  "paymentMethod": "COD",
+  "itemsPrice": 13500000,
+  "shippingPrice": 0,
+  "taxPrice": 1350000,
+  "totalPrice": 14850000,
+  "discount": 0,
+  "isPaid": false,
+  "isDelivered": false,
+  "status": "Đã giao",
+  "createdAt": {
+    "$date": "2026-03-16T06:27:46.532Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:53:52.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7aa2f55308eb306cd625b"
+  },
+  "user": {
+    "$oid": "69b530b08b6615bfb592e99b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "69b4fbf64edef693deb4a884"
+      },
+      "productName": "Samsung 990 Pro 2TB NVMe SSD",
+      "productImage": "1773635305546.jpg",
+      "price": 4500000,
+      "quantity": 1,
+      "_id": {
+        "$oid": "69b7aa2f55308eb306cd625c"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69b7804261c2c31b24d5acaf"
+      },
+      "productName": "RX 7900XTX Taichi 24GB OC",
+      "productImage": "1773635089776.png",
+      "price": 44000000,
+      "quantity": 1,
+      "_id": {
+        "$oid": "69b7aa2f55308eb306cd625d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "1324567/12345",
+    "fullName": "Taiphen",
+    "phoneNumber": "091234561234",
+    "country": "Vietnam"
+  },
+  "paymentMethod": "COD",
+  "itemsPrice": 48500000,
+  "shippingPrice": 0,
+  "taxPrice": 4850000,
+  "totalPrice": 53350000,
+  "discount": 0,
+  "isPaid": false,
+  "isDelivered": false,
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-03-16T06:58:55.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:58:55.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7ab4855308eb306cd62d3"
+  },
+  "user": {
+    "$oid": "69b530b08b6615bfb592e99b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "69b7a77632471ff67a15886e"
+      },
+      "productName": "R5 5600X",
+      "productImage": "1773643638315.jpg",
+      "price": 3200000,
+      "quantity": 1,
+      "_id": {
+        "$oid": "69b7ab4855308eb306cd62d4"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "123456",
+    "fullName": "2w34567",
+    "phoneNumber": "0954234567",
+    "country": "Vietnam"
+  },
+  "paymentMethod": "COD",
+  "itemsPrice": 3200000,
+  "shippingPrice": 0,
+  "taxPrice": 320000,
+  "totalPrice": 3520000,
+  "discount": 0,
+  "isPaid": false,
+  "isDelivered": false,
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-03-16T07:03:36.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T07:03:36.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7b06255308eb306cd63c9"
+  },
+  "user": {
+    "$oid": "69b7afa055308eb306cd63a0"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "69b7af3155308eb306cd6397"
+      },
+      "productName": "Tản Nhiệt Khí dạng tháp Leopard K400",
+      "productImage": "1773645617276.jpg",
+      "price": 300000,
+      "quantity": 3,
+      "_id": {
+        "$oid": "69b7b06255308eb306cd63ca"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "12345",
+    "fullName": "Nguyễn Đình Hoàng",
+    "phoneNumber": "09090909",
+    "country": "Vietnam"
+  },
+  "paymentMethod": "COD",
+  "itemsPrice": 900000,
+  "shippingPrice": 0,
+  "taxPrice": 90000,
+  "totalPrice": 990000,
+  "discount": 0,
+  "isPaid": false,
+  "isDelivered": false,
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-03-16T07:25:22.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T07:25:22.466Z"
+  },
+  "__v": 0
+}]

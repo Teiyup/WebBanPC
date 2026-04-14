@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "69b7a7d632471ff67a15887b"
+  },
+  "code": "MUAPC2026",
+  "discountType": "percentage",
+  "discountValue": 15,
+  "minPurchaseAmount": 5000000,
+  "maxDiscount": null,
+  "usageLimit": 20,
+  "usagePerUser": 1,
+  "usedCount": 0,
+  "expiryDate": {
+    "$date": "2026-03-30T00:00:00.000Z"
+  },
+  "isActive": true,
+  "startDate": {
+    "$date": "2026-03-16T06:48:54.174Z"
+  },
+  "usedBy": [],
+  "createdAt": {
+    "$date": "2026-03-16T06:48:54.174Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:48:54.174Z"
+  },
+  "__v": 0
+}]

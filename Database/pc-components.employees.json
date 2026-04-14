@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "69b778e08400a97e4f50fd41"
+  },
+  "name": "Pān Ruǎn Míng Xiù",
+  "email": "panruanmingxiu@pcshop.com",
+  "phone": "091234567",
+  "position": "Bộ phận bán hàng",
+  "salary": 2000,
+  "status": "Hoạt động",
+  "address": "123/123/123/4/5/6/7 trung quốc",
+  "startDate": {
+    "$date": "2026-03-16T03:28:32.990Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-16T03:28:32.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T03:28:32.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7a67232471ff67a15886a"
+  },
+  "name": "Wei Tei",
+  "email": "weitei@pcshop.com",
+  "phone": "0912341234",
+  "position": "Kỹ sư",
+  "salary": 45,
+  "status": "Hoạt động",
+  "address": "123/213/313 TPHCM",
+  "startDate": {
+    "$date": "2026-03-16T06:42:58.909Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-16T06:42:58.910Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T06:42:58.910Z"
+  },
+  "__v": 0
+}]

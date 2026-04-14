@@ -1,0 +1,95 @@
+.hero-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 0;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.products-section {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.view-all {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.view-all:hover {
+  color: #0056b3;
+}
+
+.categories-section {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.categories-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.category-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+.category-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.category-card h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  margin: 0;
+  opacity: 0.9;
+}

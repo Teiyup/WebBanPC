@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Filter section styling */
+.filter-section {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.filter-section h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Stats card styling */
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+.stat-card h6 {
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.stat-card h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px 0;
+  }
+
+  .filter-section {
+    margin-bottom: 20px;
+  }
+
+  /* Mobile improvements */
+  .navbar-main {
+    padding: 10px 0;
+  }
+
+  .app-container {
+    min-height: calc(100vh - 60px);
+  }
+
+  /* Mobile button sizing */
+  .btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .btn-lg {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+  }
+
+  /* Mobile form improvements */
+  .form-control,
+  .form-select {
+    font-size: 16px; /* Prevents auto-zoom on iOS */
+  }
+
+  /* Mobile table improvements */
+  table {
+    font-size: 0.9rem;
+  }
+
+  /* Mobile modal improvements */
+  .modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  /* Mobile spacing */
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-content {
+    padding: 8px 0;
+  }
+
+  /* Extra small screen adjustments */
+  .btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+
+  /* Mobile card spacing */
+  .card {
+    margin-bottom: 10px;
+  }
+
+  /* Reduce hero section height on mobile */
+  .hero-banner {
+    padding: 20px 0;
+  }
+
+  .hero-banner h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Mobile pagination */
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+  .page-link {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+}
+
