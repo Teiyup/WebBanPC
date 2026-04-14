@@ -9,11 +9,23 @@
    cd WebBanPC
    ```
 3. **Cài đặt Dependencies**:
+    ```bash
+   cd backend
+   ```
    ```bash
    npm install
    ```
-4. **Chạy ứng dụng**:
-   ```bash
+    ```bash
+   cd frontend
+   ```
+    ```bash
+   npm install
+   ```
+5. **Chạy ứng dụng**:
+    ```bash
+   cd frontend
+   ```
+    ```bash
    npm start
    ```
 
